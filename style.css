@@ -273,7 +273,14 @@ body{
         margin-left: 0;
     }
     .about h2:before{
-        display: none;
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 3px;
+        bottom: -7px;
+        background-color:  rgb(238, 130, 52);
+        left:50%;
+        transform: translatex(-50%);
     }
     .aboutpic, .aboutpictwo{
         justify-content: center;
@@ -636,12 +643,12 @@ input,select{
 
 @media only screen and (max-width: 600px){
     #booking{
-        margin: 30px;
+        margin: 10px;
     }
 
-    #time{
+    /* #time{
         padding: 15px;
-    }
+    } */
 
     .heading, .heading-days, .heading-phone{
     font-size: 20px;
@@ -660,9 +667,9 @@ input,select{
         margin: 30px;
     }
 
-    #time{
+    /* #time{
         padding: 15px;
-    }
+    } */
 
     .heading, .heading-days, .heading-phone{
     font-size: 22px;
@@ -682,11 +689,18 @@ input,select{
     }
 
     #time{
-        padding: 20px;
+        /* padding: 20px; */
     }
 
-    .heading, .heading-days, .heading-phone{
+    .heading, .heading-days, {
     font-size: 28px;
+    }
+    .heading-phone{
+        font-size: 10px;
+    }
+
+    p{
+        font-size: 26px;
     }
  
     
@@ -738,8 +752,11 @@ input,select{
 }
 
 @media only screen and (max-width:600px){
+    #footer{
+        font-size: small;
+    }
     #footerone{
-        margin-bottom: 20px;
+        /* margin-bottom: 10px; */
     }
 
     .footerlink ul{
