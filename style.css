@@ -688,12 +688,9 @@ input,select{
         margin: 50px auto;
     }
 
-    #time{
-        /* padding: 20px; */
-    }
 
-    .heading, .heading-days, {
-    font-size: 28px;
+    .heading, .heading-days{
+        font-size: 28px;
     }
     .heading-phone{
         font-size: 10px;
@@ -755,9 +752,9 @@ input,select{
     #footer{
         font-size: small;
     }
-    #footerone{
-        /* margin-bottom: 10px; */
-    }
+    /* #footerone{
+        margin-bottom: 10px;
+    } */
 
     .footerlink ul{
         margin-left: 0;
